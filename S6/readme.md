@@ -54,6 +54,55 @@ Above is the loss graph when learning rate is set 1
 
 Above is the loss graph when learning rate is set 2
 
+# Part 2 - In part 2 we have to achieve some targets and accuracy for our models
+We have implemented the below concepts which are taught in last 5 lectures
+1) How many layers,
+2) MaxPooling,
+3) 1x1 Convolutions,
+4) 3x3 Convolutions,
+5) Receptive Field,
+6) SoftMax,
+7) Learning Rate,
+8) Kernels and how do we decide the number of kernels?
+9) Batch Normalization,
+10) Image Normalization,
+11) Position of MaxPooling,
+12) Concept of Transition Layers,
+13) Position of Transition Layer,
+14) DropOut
+15) When do we introduce DropOut, or when do we know we have some overfitting
+16) The distance of MaxPooling from Prediction,
+17) The distance of Batch Normalization from Prediction,
+18) When do we stop convolutions and go ahead with a larger kernel or some other alternative (which we have not yet covered)
+19) How do we know our network is not going well, comparatively, very early
+20) Batch Size, and Effects of batch size
+21) etc (you can add more if we missed it here)
+
+## Our targets for part 2 assignment was make a model in such a way that achieves
+1) 99.4% validation accuracy
+2) Less than 20k Parameters
+3) You can use anything from above you want. 
+4) Less than 20 Epochs
+5) Have used BN, Dropout,
+6) (Optional): a Fully connected layer, have used GAP.
+
+### Our model parameters is
+Total params: 14,896
+Trainable params: 14,896
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 1.06
+Params size (MB): 0.06
+Estimated Total Size (MB): 1.12
+
+and our test accuracy was 99.47% in epoch 19th
+
+Epoch  19
+loss=0.057934198528528214 batch_id=468: 100%|██████████| 469/469 [00:17<00:00, 26.84it/s] 
+
+Test set: Average loss: 0.0172, Accuracy: 9947/10000 (99.47%)
+
 
 
 
