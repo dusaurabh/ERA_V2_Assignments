@@ -86,7 +86,9 @@ We have implemented the below concepts which are taught in last 5 lectures
 5) Have used BN, Dropout,
 6) (Optional): a Fully connected layer, have used GAP.
 
-### Our model parameters is
+### Our model parameters is 14896
+
+
 Total params: 14,896
 Trainable params: 14,896
 Non-trainable params: 0
