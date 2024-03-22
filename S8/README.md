@@ -20,6 +20,49 @@
 
 
 # For Batch Normalization
+![Batch Normalization Results](output_images/photo_4.png)
+
+In the above image we can see that the highest accuracy we achieve was 71.52% and maximum parameter count we achieve was 52,608
+
+![Batch Normalization Misclassified_Images](output_images/photo_2.png)
+
+In above image, we can see 10 misclassified images for the Batch Normalization
+
+##### My Findings for Batch Normalization
+1. We get higher and faster accuracy in Batch Normalization
+2. The model convergence faster when used Batch Normalization
+3. Using basic model with Batch Normalization we get good accuracy both(train and test)
+4. Final Receptive Field we get is 55
+
+
+# For Group Normalization
+![Group Normalization Results](output_images/photo_6.png)
+
+In the above image we can see that the highest accuracy we achieve was 67.42% and maximum parameter count we achieve was 52,608
+
+![Group Normalization Misclassified_Images](output_images/photo_3.png)
+
+In above image, we can see 10 misclassified images for the Group Normalization
+
+
+##### My Findings for Group Normalization
+1. We get lessser accuracy in Group Normalization as compared to Batch Normalization
+2. The model does not convergence faster when used Group Normalization
+
+# For Layer Normalization
+![Layer Normalization Results](output_images/photo_5.png)
+
+In the above image we can see that the highest accuracy we achieve was67.14% and maximum parameter count we achieve was 236,448
+
+![Layer Normalization Misclassified_Images](output_images/photo_1.png)
+
+In above image, we can see 10 misclassified images for the Layer Normalization
+
+##### My Findings for Layer Normalization
+1. We get lessser accuracy in Layer Normalization as compared to Batch Normalization and Group Normalization
+2. The model convergence slower when used Layer Normalization
+3. In this model our parameter count also got tremendously increase from 52,608 to 236,448
+
 
 
 
